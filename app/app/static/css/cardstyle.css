@@ -1,0 +1,4 @@
+/* Agrega margen inferior a todas las filas, excepto a la última */
+.row:not(:last-child) {
+    margin-bottom: 20px; /* Puedes ajustar este valor según sea necesario */
+}
